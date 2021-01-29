@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: tahoma, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+    </style>
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Welcome to homepage</h1>
+    <h2>System info:</h2>
+    <p>Loading...</p>
+
+    <script>
+
+        let p = document.querySelector('p')
+
+        fetch('https://shielded-island-06481.herokuapp.com/api/sysinfo')
+            .then(res => {
+                return res.json()
+                
+            })
+            .then(users => {
+                p.innerHTML = users[0].doc
+                
+            })
+    </script>
+</body>
+</html>

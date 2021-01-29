@@ -1,0 +1,55 @@
+.edit-elem {
+  background: #fff;
+  box-sizing: border-box;
+  // border: 1px solid #000;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 10px 0px;
+  color: rgba(14, 19, 24, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  height: 65vh;
+  overflow-y: scroll;
+  padding: 14px 20px;
+  width: 330px;
+  position: absolute;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $blue;
+    &:hover {
+      background: darken($blue, $darken);
+    }
+  }
+  &::-webkit-scrollbar-track {
+      background: transparent;
+  }
+  .back-btn {
+    cursor: pointer;
+    width: 33px;
+  }
+  .current-color {
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  .head {
+    cursor: pointer;
+    padding-bottom: 16px;
+    transition: .4s;
+    &:hover {
+      color: #000000;
+      padding-left: 20px;
+    }
+  }
+  .main {
+    flex-flow: column;
+    padding-left: 18px;
+    position: relative;
+  }
+  .chromePicker {
+    position: absolute;
+    top: 61px;
+    left: 77px;
+  }
+}

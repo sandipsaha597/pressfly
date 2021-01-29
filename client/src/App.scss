@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  // text-align: center;
+  font-family: "Work Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+button {
+  background-color: transparent;
+  font-family: "Work Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  &:focus {
+    border: none;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  display: inline-block;
+  transition: .2s;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+input {
+  font-family: "Work Sans",Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@import "css/variables.scss";
+@import "css/login.scss";
+@import "css/sidebar/account.scss";
+@import "css/sidebar/sidebar.scss";
+@import "css/dashboard/dashboard.scss";
+@import "css/dashboard/all-presentations.scss";
+@import "css/create-presentation/create-presentation.scss";
+@import "css/create-presentation/topbar.scss";
+@import "css/create-presentation/edit-elem.scss"

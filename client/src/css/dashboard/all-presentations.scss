@@ -1,0 +1,41 @@
+.all-presentations {
+  margin-top: 50px;
+  h2 {
+    color: rgb(30, 31, 33);
+    border: 3px solid #000;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: .4s ease-in-out;
+    &:hover {
+      border: 3px solid transparent;
+      background: rgb(30, 31, 33);
+      color: #ffffff;
+    }
+  }
+}
+
+// body {
+//   display: flex;
+// }
+// .box {
+//   background: #f4f4f4;
+//   width: 400px;
+//   text-align: center;
+//   margin: 10px;
+// /*   height: 100px; */
+// /*   transform: scale(1) */
+//   position: relative;
+// }
+// .canvas {
+//   background: dodgerblue;
+//   width: 1000px;
+//   height: 100px;
+//   transform: scale(.3);
+//   position: absolute;
+//   top: 0;
+//   left: -300px;
+// }
+// .wrapper {
+//   height: 100px;
+// }

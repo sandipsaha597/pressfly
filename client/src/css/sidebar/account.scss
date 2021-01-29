@@ -1,0 +1,13 @@
+
+.account {
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 28px;
+  span {
+    margin: 0px 10px;
+  }
+  button {
+    &:hover {
+      background: rgba(0, 0, 0, 0.4);
+    }
+  }
+}
