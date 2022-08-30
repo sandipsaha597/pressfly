@@ -1,0 +1,10 @@
+.account {
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 28px;
+}
+.account span {
+  margin: 0px 10px;
+}
+.account button:hover {
+  background: rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=account.css.map */

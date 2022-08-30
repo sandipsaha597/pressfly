@@ -72,7 +72,7 @@ router.post('/create-fly', authenticateToken, (req, res) => {
 router.post('/', authenticateToken, (req, res) => {
   console.log('save req')
   console.log(req.username)
-  console.log(req.body._id)
+  console.log(req.body.slides)
   let slide = `slides.${req.body.slideIndex}`
   // User.updateOne({email: req.username}, {$push : {slides: req.body.slides}}, (err, data) => {
   //   if (err) {

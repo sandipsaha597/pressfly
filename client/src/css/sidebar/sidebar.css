@@ -1,0 +1,65 @@
+.sidebar {
+  background: rgb(249, 249, 247);
+  box-sizing: border-box;
+  width: 18%;
+  height: 100vh;
+  padding: 14px 16px;
+}
+
+nav ul {
+  font-size: 12px;
+  font-family: "Work Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+nav ul li {
+  margin-bottom: 14px;
+}
+nav ul li > a {
+  display: flex;
+  align-items: center;
+}
+nav ul .icon-box {
+  color: #ffffff;
+  display: inline-block;
+  width: 13px;
+}
+nav ul .icon-box img:hover {
+  filter: hue-rotate(90deg);
+}
+nav ul .name {
+  margin-left: 10px;
+}
+nav ul a {
+  color: rgb(78, 78, 78);
+}
+nav ul a:hover {
+  color: rgb(67, 83, 255);
+}
+
+.presentation-folder div {
+  color: rgb(168, 168, 168);
+  font-size: 12px;
+  font-weight: 500;
+  margin: 36px 0 12px;
+}
+.presentation-folder ul {
+  color: #4e4e4e;
+  font-size: 12px;
+  font-weight: 500;
+}
+.presentation-folder ul li {
+  background: rgb(235, 234, 233);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.presentation-folder ul .icon {
+  display: inline-block;
+  width: 22px;
+  margin-left: 20px;
+}
+.presentation-folder ul .name {
+  margin-left: 13px;
+}/*# sourceMappingURL=sidebar.css.map */

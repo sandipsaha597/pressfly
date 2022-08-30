@@ -1,0 +1,38 @@
+.create-presentation {
+  display: flex;
+}
+
+.slide-designer-btn {
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 130px;
+  text-align: center;
+}
+.slide-designer-btn .btn {
+  border: 1px solid rgb(234, 233, 230);
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-designer-btn .btn span {
+  width: 23px;
+  height: 23px;
+}
+.slide-designer-btn h2 {
+  color: #4e4e4e;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 9px;
+  transition: 0.2s;
+}
+.slide-designer-btn:hover h2 {
+  color: rgb(67, 83, 255);
+}
+
+.dashboard {
+  width: 82%;
+  padding: 10px;
+  box-sizing: border-box;
+}/*# sourceMappingURL=dashboard.css.map */
