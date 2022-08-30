@@ -4,7 +4,10 @@ const router = express.Router()
 const mongoose = require("mongoose")
 const objectId = require('mongodb').ObjectID
 const bcrypt = require("bcrypt")
-const uri = "mongodb+srv://sandip:" + process.env.MONGODB_PW + "@pressfly-lj5ka.gcp.mongodb.net/pressfly?retryWrites=true&w=majority";
+const uri =
+  'mongodb+srv://sandip:' +
+  process.env.MONGODB_PW +
+  '@todo-app.lyobv.mongodb.net/?retryWrites=true&w=majority'
 const jwt = require("jsonwebtoken")
 
 const User = require("../../models/user")
